@@ -297,6 +297,17 @@ require('lazy').setup({
         { '<leader>t', group = '[T]oggle' },
         { '<leader>w', group = '[W]orkspace' },
         { '<leader>h', desc = 'Git [H]unk', mode = 'v' },
+
+        { 's', desc = '[S]urround' },
+        { '[', desc = 'next' },
+        { ']', desc = 'previous' },
+
+        { '<left>', hidden = true },
+        { '<right>', hidden = true },
+        { '<up>', hidden = true },
+        { '<down>', hidden = true },
+
+        { '`', hidden = true },
       }
     end,
   },
